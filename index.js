@@ -8,7 +8,7 @@ app.get('/', (req,res)=>{
 
 
 app.get('/hallo', (req,res)=>{
-    res.send('Velo :-)');
+    res.send('Velo :-) ?');
 });
 
 app.listen(port,()=>{
